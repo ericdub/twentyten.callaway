@@ -1,0 +1,43 @@
+#header {
+/*	padding: 30px 0 0 0;	*/
+}
+#branding {
+	/*height: 180px;*/
+}
+#site-title {
+/*	float: left;	*/
+	font-size: 40px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	/*font-weight: bold;*/
+    /*letter-spacing: -1px;*/
+    /*text-align: center;*/
+	padding-top: 0.4em;
+}
+#site-title a {
+	color: #883311;
+	/*font-weight: bold;*/
+	text-decoration: none;
+}
+#site-description {
+/*	clear: right;
+	float: right;
+	width: 220px;		*/
+	font-size: 1.2em;
+	font-style: italic;
+	text-align: right;
+	/*font-family: 'Arvo',serif;*/
+	padding: 0.8em 1em 0.6em;
+	color: #554433;
+	/*text-align: center;*/
+}
+
+/* This is the custom header image */
+#branding img {
+	border-top: 4px solid #000;
+	border-bottom: 1px solid #000;
+	display: none;
+	float: left;
+}
+
+
+

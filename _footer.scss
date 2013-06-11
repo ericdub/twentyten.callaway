@@ -1,0 +1,39 @@
+#footer {
+	margin-bottom: 20px;
+	/*background: #FFF;*/
+/*	-webkit-box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.2);*/
+}
+#colophon {
+	border-top: 4px solid #993311;
+	margin-top: -4px;
+	overflow: hidden;
+	padding: 18px 0;
+}
+#site-info {
+	margin-left: 12px;
+}
+#site-info a {
+	color: #883311;
+	text-decoration: none;
+}
+#site-generator {
+	position: relative;
+}
+#site-generator a {
+	font: 1.1em "Helvetica Neue",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+	color: #883311;
+	display: inline-block;
+	line-height: 16px;
+	padding-left: 20px;
+	text-decoration: none;
+}
+#site-info a:hover, #site-generator a:hover {
+	text-decoration: underline;
+}
+img#wpstats {
+	display: block;
+	margin: 0 auto 10px;
+}
+

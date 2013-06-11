@@ -1,0 +1,99 @@
+#access {
+	background: #993311;
+	display: block;
+	float: left;
+	margin: 0 auto;
+	width: 940px;
+	
+}
+#access .menu-header,
+div.menu {
+	font-size: 13px;
+	margin-left: 50px;
+	width: 928px;
+}
+#access .menu-header ul,
+div.menu ul {
+	list-style: none;
+	margin: 0;
+}
+#access .menu-header li,
+div.menu li {
+	float: left;
+	position: relative;
+}
+#access a {
+	color: #fff;
+	display: block;
+	line-height: 38px;
+	padding: 0 10px;
+	text-decoration: none;
+	font-size:120%;
+	border-right: 1px solid #E5DAB7; 
+}
+#access li:nth-child(1) a {
+	border-left: 1px solid #E5DAB7;	
+}
+#access ul ul {
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	display: none;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	float: left;
+	width: 180px;
+	z-index: 99999;
+}
+#access ul ul li {
+	min-width: 180px;
+}
+#access ul ul ul {
+	left: 100%;
+	top: 0;
+}
+#access ul ul a {
+	background: #333;
+	line-height: 1em;
+	padding: 10px;
+	width: 160px;
+	height: auto;
+}
+#access li:hover > a,
+#access ul ul :hover > a {
+	background: #E93301;
+	color: #fff;
+/*	background: #6d1919;
+	background: -moz-linear-gradient(top, #6d1919 30%, #b7292a 100%);
+	background: -webkit-gradient(linear, top top, left bottom, color-stop(0%,#6d1919), color-stop(100%,#b7292a));
+	background: -webkit-linear-gradient(top, #6d1919 30%, #b7292a 100%);
+	background: -o-linear-gradient(top, #6d1919 30%, #b7292a 100%);
+	background: -ms-linear-gradient(top, #6d1919 30%, #b7292a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6D1919', endColorstr='#B7292A',GradientType=0 );
+	background: linear-gradient(top, #6d1919 30%, #b7292a 100%);
+*/	
+}
+#access ul li:hover > ul {
+	display: block;
+	background: #CB2F00;
+}
+#access ul li.current_page_item > a,
+#access ul li.current-menu-ancestor > a,
+#access ul li.current-menu-item > a,
+#access ul li.current-menu-parent > a {
+	color: #993311;
+	background: #EDE7D2;
+}
+* html #access ul li.current_page_item a,
+* html #access ul li.current-menu-ancestor a,
+* html #access ul li.current-menu-item a,
+* html #access ul li.current-menu-parent a,
+* html #access ul li a:hover {
+	color: #993311;
+	background: #E5DAB7;
+}
+.home #access ul li.current_page_item > a { color: #FFF; background:#993311; }
+.home #access ul li a:hover { background: #CB2F00; }
+
+

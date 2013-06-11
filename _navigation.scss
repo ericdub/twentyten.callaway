@@ -1,0 +1,50 @@
+#access a.dbrl-home {
+    float:left;
+    margin: 4px 8px 0 20px;
+    padding: 0;
+    line-height: 0;
+    width:42px;
+    opacity: 1;
+    border:none;
+}
+#access a.dbrl-home:hover { opacity: 0.9; }
+.navigation {
+	color: #888;
+	font-size: 12px;
+	line-height: 18px;
+	overflow: hidden;
+}
+.navigation a:link,
+.navigation a:visited {
+	color: #888;
+	text-decoration: none;
+}
+.navigation a:active,
+.navigation a:hover {
+	color: #ff4b33;
+}
+.nav-previous {
+	float: left;
+	width: 50%;
+}
+.nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+.single .nav-previous, .single .nav-next { display:none;}
+#nav-above {
+	margin: 0 0 18px 0;
+}
+#nav-above {
+	display: none;
+}
+.paged #nav-above,
+.single #nav-above {
+	display: block;
+}
+#nav-below {
+	margin: -18px 0 0 0;
+}
+
+
